@@ -1,0 +1,19 @@
+
+	.header{
+        height: 120px;}
+	.menu{
+        : 50px;background: cyan;}
+	.content{
+        height: 450px;background: white;}
+    #output{
+        width: 55% ;height: 450px; float:right;border: 1px solid black;}
+    #input{
+        width: 40%;height:450px;float:left;border: 1px solid black;}
+    .runbtn{margin-left:200px;
+         width: 120px;
+         height: 40px; }
+
+    .h2{
+        text-align: center;
+    }
+

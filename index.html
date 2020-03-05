@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main"></div>
+	<div class="header">
+        <h2 class="h2">Tareq Code Editor</h2>
+        <marquee behavior="" direction="right"> This is my first code editor you can run your code easily Thanks <span style="color:rgb(4, 12, 131)">Jhankar Mahbub</span>  vaia :)</marquee>
+	</div>
+	<div class="runBtn">
+		<input type="button" value="RUN" onclick="RUN()"/>
+	</div>
+	 <div class="content">
+        <textarea id="input"></textarea>
+		<div id="output"></div>
+		
+	 </div>
+    
+ 
+<script type="text/javascript">
+	function RUN()
+	{
+		var code = document.getElementById('input').value;
+
+		document.getElementById("output").innerHTML =code;
+	}
+</script>
+
+
+
+</body>
+</html>
+
